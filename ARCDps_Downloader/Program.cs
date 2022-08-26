@@ -8,11 +8,11 @@ namespace ARCDps_Downloader
     {
         private static void Main(string[] args)
         {
-            const string src_path = "https://www.deltaconnected.com/arcdps/x64/d3d9.dll";
-            const string dst_path = @"E:\Guild Wars 2\bin64\d3d9.dll";
+            const string src_path = "https://www.deltaconnected.com/arcdps/x64/d3d11.dll";
+            const string dst_path = @"E:\Guild Wars 2\bin64\d3d11.dll";
+            const string new_name = @"E:\Guild Wars 2\bin64\d3d9.dll";
             GW2ExtDownloader(src_path, dst_path);
-
-            Console.ReadLine();
+            Rename(dst_path, new_name);
         }
 
         private static void GW2ExtDownloader(string src_path, string dst_path)
@@ -32,6 +32,15 @@ namespace ARCDps_Downloader
                 {
                     Console.WriteLine("src PathNotFound: {0}", Directory.GetParent(src_path));
                 }
+            }
+        }
+
+        private static void Rename(string old_name, string new_name)
+        {
+            if(File.Exists(new_name))
+            {
+                File.Delete(new_name);
+                File.Move(old_name, new_name);
             }
         }
     }

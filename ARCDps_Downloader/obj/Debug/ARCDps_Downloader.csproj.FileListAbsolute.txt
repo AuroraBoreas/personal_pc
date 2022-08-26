@@ -1,0 +1,7 @@
+C:\Users\Aurora_Boreas\Desktop\personal_pc-master\ARCDps_Downloader\bin\Debug\ARCDps_Downloader.exe.config
+C:\Users\Aurora_Boreas\Desktop\personal_pc-master\ARCDps_Downloader\bin\Debug\ARCDps_Downloader.exe
+C:\Users\Aurora_Boreas\Desktop\personal_pc-master\ARCDps_Downloader\bin\Debug\ARCDps_Downloader.pdb
+C:\Users\Aurora_Boreas\Desktop\personal_pc-master\ARCDps_Downloader\obj\Debug\ARCDps_Downloader.csproj.AssemblyReference.cache
+C:\Users\Aurora_Boreas\Desktop\personal_pc-master\ARCDps_Downloader\obj\Debug\ARCDps_Downloader.csproj.CoreCompileInputs.cache
+C:\Users\Aurora_Boreas\Desktop\personal_pc-master\ARCDps_Downloader\obj\Debug\ARCDps_Downloader.exe
+C:\Users\Aurora_Boreas\Desktop\personal_pc-master\ARCDps_Downloader\obj\Debug\ARCDps_Downloader.pdb
