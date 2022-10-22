@@ -40,8 +40,8 @@ namespace ARCDps_Downloader
             if(File.Exists(new_name))
             {
                 File.Delete(new_name);
-                File.Move(old_name, new_name);
             }
+            File.Move(old_name, new_name);
         }
     }
 }
